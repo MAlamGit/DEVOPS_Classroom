@@ -1,0 +1,10 @@
+---
+- hosts: server
+
+  tasks:
+    - name: Copying Public Key
+      authorized_key:
+        user: root
+        state: present
+        key: "{{ lookup('file', '/root/.ssh/id_rsa.pub') }}"
+      become: true

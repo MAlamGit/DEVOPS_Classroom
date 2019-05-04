@@ -1,0 +1,7 @@
+---
+- hosts: server
+  tasks:
+    - name: Unconditionally reboot the machine with all defaults
+      reboot:
+    
+    - debug: var=output

@@ -1,0 +1,30 @@
+---
+- hosts: localhost
+
+   - moiz:
+      name: Moiz Mahtab Ansari
+	  sec: A
+	  div: 2nd
+	  sex: male
+	  likes: 
+	    - drawing
+	    - maths
+	    - english
+		
+   - muhriz:
+	  name: Muhriz Mahtab Ansari
+	  sec: B
+	  div: LKG
+	  likes:
+	    - chocolate
+	    - fighting
+	 
+   - muazzam:
+	  name: Muazzam Mahtab Ansari
+	  sec: C
+	  div: Nursery
+	  likes:
+	    - watching cartoon
+	    - studying
+	
+...
