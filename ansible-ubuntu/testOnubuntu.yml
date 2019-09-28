@@ -1,0 +1,9 @@
+---
+- hosts: server2
+  
+  tasks:
+    - name: Copying File On Ubuntu
+      copy:
+        src: /opt/DEVOPS_Classroom/ansible-ubuntu/test.py
+        dest: /opt/pythonLearn/test.py
+        mode: 0644

@@ -1,0 +1,6 @@
+---
+- hosts: lcalhost
+
+
+  tasks:
+    - debug: msg="Test Callback Plugin"

@@ -1,5 +1,6 @@
 ---
 - hosts: localhost
+  connection: local
   vars:
     web_dependencies:
          - python

@@ -1,0 +1,2 @@
+redht ansible_host=172.31.17.40
+ubntu ansible_host=172.31.13.9
