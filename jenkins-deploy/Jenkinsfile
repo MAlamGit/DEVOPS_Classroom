@@ -6,8 +6,8 @@ node {
 
         checkout scm
     }
-load 'Project1/Jenkinsfile'
-load 'Project2/Jenkinsfile'
+load 'jenkins-deploy/Project1/Jenkinsfile'
+load 'jenkins-deploy/Project2/Jenkinsfile'
     
 }
 
