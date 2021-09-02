@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rake-compiler', '~> 0.9.7'
   s.add_development_dependency 'minitest', '>= 5'
   s.add_development_dependency 'openssl'
-  s.add_development_dependency 'rdoc', '~> 3.12'
+  s.add_development_dependency 'rdoc', '~> 6.3'
   s.add_development_dependency 'rake-compiler-dock', '~> 0.5.3'
 
   s.has_rdoc = true
