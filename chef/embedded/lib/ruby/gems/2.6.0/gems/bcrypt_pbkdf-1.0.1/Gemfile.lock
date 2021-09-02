@@ -6,15 +6,13 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    json (1.8.6)
     minitest (5.8.3)
     openssl (2.1.2)
     rake (11.1.1)
     rake-compiler (0.9.7)
       rake
     rake-compiler-dock (0.5.3)
-    rdoc (3.12.2)
-      json (~> 1.4)
+    rdoc (6.3.1)
 
 PLATFORMS
   ruby
@@ -25,7 +23,7 @@ DEPENDENCIES
   openssl
   rake-compiler (~> 0.9.7)
   rake-compiler-dock (~> 0.5.3)
-  rdoc (~> 3.12)
+  rdoc (~> 6.3)
 
 BUNDLED WITH
    1.17.3
